@@ -1,0 +1,13 @@
+prefix=D:/Bike insurance/venv/Library
+exec_prefix=D:/Bike insurance/venv/Library
+libdir=D:/Bike insurance/venv/Library/lib
+sharedlibdir=D:/Bike insurance/venv/Library/lib
+includedir=D:/Bike insurance/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
